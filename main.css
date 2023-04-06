@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.triangle {
+  position: relative;
+  background: yellow;
+  display: flex;
+  height: 1000px;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.point {
+  background: black;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.vertex {
+  align-self: flex-start;
+  /* background: green; */
+}
